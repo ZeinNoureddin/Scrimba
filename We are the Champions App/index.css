@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B1924; 
+    color: #FFFFFF; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    /* text-align: center;  */
+    max-width: 320px;
+    margin: 51px auto; 
+    user-select: none; 
+}
+
+.container {
+
+}
+
+h1 {
+    text-align: center; 
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+img {
+    width: 90px; 
+    margin: 0 auto; 
+    margin-bottom: 5px; 
+}
+
+#endorsement-el {
+    /* width: 300px; */
+    height: 100px;
+    /* margin: 0 auto 10px auto; */
+    border: none;
+    border-radius: 0.5rem;
+    resize: none;
+    padding: 1rem;
+    background: #444059;
+    color: #8F8F8F;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#fromTo {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.ft {
+    margin-top: 9px; 
+    width: 151.52px;
+    height: 40px;
+    border-radius: 8px;
+    background: #444059;
+    border: none;
+    color: #8F8F8F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#publish {
+    width: 317px;
+    height: 61px;
+    border-radius: 8px;
+    background: #28A9F1;
+    color: #04131C;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 9px;
+    border: none; 
+}
+
+h2 {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center; 
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 14px; 
+}
+
+.anEndorsement {
+    background: #FFF;
+    
+    max-width: 317px;
+    
+    display: flex; 
+    flex-direction: column; 
+    
+    margin-bottom: 13px; 
+    padding: 0 14px; 
+    
+    color: #1B1924;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.tf {
+    color: #1B1924;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 13px 0; 
+}
+
+.btmMargin {
+    margin-bottom: 15px; 
+}
